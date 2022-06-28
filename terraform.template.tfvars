@@ -13,4 +13,4 @@ tags = {
 
 public_subnets = {{public_subnets}}
 private_subnets = {{private_subnets}}
-vpc_id = {{vpc_id}}
+vpc_id = "{{vpc_id}}"
