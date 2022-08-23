@@ -13,13 +13,8 @@ variable "tags" {
   type = map(string)
 }
 
-
 # The application's name
 variable "app" {
-}
-
-# The environment that is being built
-variable "environment" {
 }
 
 # The private subnets, minimum of 2, that are a part of the VPC(s)
