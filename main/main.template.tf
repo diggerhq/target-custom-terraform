@@ -54,5 +54,10 @@ provider "aws" {
   {% else %}
   access_key = var.aws_key
   secret_key = var.aws_secret
-  {% endif %} 
+  {% endif %}   
+  default_tags {
+    tags = {
+      digger_identifier = "{{aws_app_identifier}}"
+    }
+  }
 }
